@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "SeargePipelineTerminator",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "data": {
+            "index": 0,
+            "type": "SRG_DATA_STREAM",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

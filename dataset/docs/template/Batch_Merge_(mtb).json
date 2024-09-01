@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "type": "Batch Merge (mtb)",
+    "title": null,
+    "parameters": {
+        "fusion_mode": {
+            "index": 0,
+            "value": null
+        },
+        "fill": {
+            "index": 1,
+            "value": null
+        }
+    },
+    "inputs": {},
+    "outputs": {
+        "image": {
+            "index": 0,
+            "type": "IMAGE",
+            "links": []
+        }
+    }
+}

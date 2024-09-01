@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "easy pipeToBasicPipe",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "pipe": {
+            "index": 0,
+            "type": "PIPE_LINE",
+            "link": null
+        }
+    },
+    "outputs": {
+        "basic_pipe": {
+            "index": 0,
+            "type": "BASIC_PIPE",
+            "links": []
+        }
+    }
+}

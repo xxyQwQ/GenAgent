@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "List Length",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "In": {
+            "index": 0,
+            "type": "*",
+            "link": null
+        }
+    },
+    "outputs": {
+        "Length": {
+            "index": 0,
+            "type": "INT",
+            "links": []
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "MaskPreview+",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "mask": {
+            "index": 0,
+            "type": "MASK",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "ClipVisionOutputClamp",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "clip_vision_output": {
+            "index": 0,
+            "type": "CLIP_VISION_OUTPUT",
+            "link": null
+        }
+    },
+    "outputs": {
+        "clip_vision_output": {
+            "index": 0,
+            "type": "CLIP_VISION_OUTPUT",
+            "links": []
+        }
+    }
+}

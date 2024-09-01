@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "ImageFilterContour",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "images": {
+            "index": 0,
+            "type": "IMAGE",
+            "link": null
+        }
+    },
+    "outputs": {
+        "image": {
+            "index": 0,
+            "type": "IMAGE",
+            "links": []
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": null,
+    "type": "Number PI",
+    "title": null,
+    "parameters": {},
+    "inputs": {},
+    "outputs": {
+        "number": {
+            "index": 0,
+            "type": "NUMBER",
+            "links": []
+        },
+        "float": {
+            "index": 1,
+            "type": "FLOAT",
+            "links": []
+        }
+    }
+}

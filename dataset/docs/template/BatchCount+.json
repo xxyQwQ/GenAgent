@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "BatchCount+",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "batch": {
+            "index": 0,
+            "type": "*",
+            "link": null
+        }
+    },
+    "outputs": {
+        "int": {
+            "index": 0,
+            "type": "INT",
+            "links": []
+        }
+    }
+}

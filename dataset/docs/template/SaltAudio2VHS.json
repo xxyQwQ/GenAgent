@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "SaltAudio2VHS",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "audio": {
+            "index": 0,
+            "type": "AUDIO",
+            "link": null
+        }
+    },
+    "outputs": {
+        "vhs_audio": {
+            "index": 0,
+            "type": "VHS_AUDIO",
+            "links": []
+        }
+    }
+}

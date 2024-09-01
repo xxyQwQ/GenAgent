@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "PrintSigmas",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "sigmas": {
+            "index": 0,
+            "type": "SIGMAS",
+            "link": null
+        }
+    },
+    "outputs": {
+        "sigmas": {
+            "index": 0,
+            "type": "SIGMAS",
+            "links": []
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "CM_BoolToInt",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "a": {
+            "index": 0,
+            "type": "BOOL",
+            "link": null
+        }
+    },
+    "outputs": {
+        "int": {
+            "index": 0,
+            "type": "INT",
+            "links": []
+        }
+    }
+}

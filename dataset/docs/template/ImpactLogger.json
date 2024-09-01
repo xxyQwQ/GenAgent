@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "ImpactLogger",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "data": {
+            "index": 0,
+            "type": "*",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "easy cleanGpuUsed",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "anything": {
+            "index": 0,
+            "type": "*",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

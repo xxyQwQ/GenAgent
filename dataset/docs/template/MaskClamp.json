@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "MaskClamp",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "mask": {
+            "index": 0,
+            "type": "MASK",
+            "link": null
+        }
+    },
+    "outputs": {
+        "mask": {
+            "index": 0,
+            "type": "MASK",
+            "links": []
+        }
+    }
+}

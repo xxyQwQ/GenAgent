@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "SeargeParameterProcessor",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "inputs": {
+            "index": 0,
+            "type": "PARAMETER_INPUTS",
+            "link": null
+        }
+    },
+    "outputs": {
+        "parameters": {
+            "index": 0,
+            "type": "PARAMETERS",
+            "links": []
+        }
+    }
+}

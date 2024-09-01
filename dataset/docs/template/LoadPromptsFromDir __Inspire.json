@@ -1,0 +1,19 @@
+{
+    "id": null,
+    "type": "LoadPromptsFromDir __Inspire",
+    "title": null,
+    "parameters": {
+        "prompt_dir": {
+            "index": 0,
+            "value": null
+        }
+    },
+    "inputs": {},
+    "outputs": {
+        "zipped_prompt": {
+            "index": 0,
+            "type": "ZIPPED_PROMPT",
+            "links": []
+        }
+    }
+}

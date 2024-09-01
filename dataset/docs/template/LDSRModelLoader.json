@@ -1,0 +1,19 @@
+{
+    "id": null,
+    "type": "LDSRModelLoader",
+    "title": null,
+    "parameters": {
+        "model": {
+            "index": 0,
+            "value": null
+        }
+    },
+    "inputs": {},
+    "outputs": {
+        "upscale_model": {
+            "index": 0,
+            "type": "UPSCALE_MODEL",
+            "links": []
+        }
+    }
+}

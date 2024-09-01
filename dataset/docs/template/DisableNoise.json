@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "DisableNoise",
+    "title": null,
+    "parameters": {},
+    "inputs": {},
+    "outputs": {
+        "noise": {
+            "index": 0,
+            "type": "NOISE",
+            "links": []
+        }
+    }
+}

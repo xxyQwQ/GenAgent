@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "CM_NumberToInt",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "a": {
+            "index": 0,
+            "type": "NUMBER",
+            "link": null
+        }
+    },
+    "outputs": {
+        "int": {
+            "index": 0,
+            "type": "INT",
+            "links": []
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "FromListGetConds",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "list": {
+            "index": 0,
+            "type": "CONDITIONING",
+            "link": null
+        }
+    },
+    "outputs": {
+        "conditioning": {
+            "index": 0,
+            "type": "CONDITIONING",
+            "links": []
+        }
+    }
+}

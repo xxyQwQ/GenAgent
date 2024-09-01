@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "DifferentialDiffusion",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "model": {
+            "index": 0,
+            "type": "MODEL",
+            "link": null
+        }
+    },
+    "outputs": {
+        "model": {
+            "index": 0,
+            "type": "MODEL",
+            "links": []
+        }
+    }
+}

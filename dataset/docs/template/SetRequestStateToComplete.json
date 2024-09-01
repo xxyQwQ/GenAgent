@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "SetRequestStateToComplete",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "resource_i": {
+            "index": 0,
+            "type": "TASK_DONE",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

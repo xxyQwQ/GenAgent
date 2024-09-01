@@ -1,0 +1,24 @@
+{
+    "id": null,
+    "type": "JWImageSaveToPath",
+    "title": null,
+    "parameters": {
+        "path": {
+            "index": 0,
+            "value": null
+        }
+    },
+    "inputs": {
+        "image": {
+            "index": 0,
+            "type": "IMAGE",
+            "link": null
+        },
+        "overwrite": {
+            "index": 1,
+            "type": "['false', 'true']",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "UpscaleModelClamp",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "upscale_model": {
+            "index": 0,
+            "type": "UPSCALE_MODEL",
+            "link": null
+        }
+    },
+    "outputs": {
+        "upscale_model": {
+            "index": 0,
+            "type": "UPSCALE_MODEL",
+            "links": []
+        }
+    }
+}

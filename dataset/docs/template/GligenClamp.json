@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "GligenClamp",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "gligen": {
+            "index": 0,
+            "type": "GLIGEN",
+            "link": null
+        }
+    },
+    "outputs": {
+        "gligen": {
+            "index": 0,
+            "type": "GLIGEN",
+            "links": []
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "ConvertAgentAsTool",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "agent": {
+            "index": 0,
+            "type": "AGENT",
+            "link": null
+        }
+    },
+    "outputs": {
+        "tool": {
+            "index": 0,
+            "type": "TOOL",
+            "links": []
+        }
+    }
+}

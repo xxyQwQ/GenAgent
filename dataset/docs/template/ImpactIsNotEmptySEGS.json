@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "ImpactIsNotEmptySEGS",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "segs": {
+            "index": 0,
+            "type": "SEGS",
+            "link": null
+        }
+    },
+    "outputs": {
+        "boolean": {
+            "index": 0,
+            "type": "BOOLEAN",
+            "links": []
+        }
+    }
+}

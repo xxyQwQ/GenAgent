@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "Number to Seed",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "number": {
+            "index": 0,
+            "type": "NUMBER",
+            "link": null
+        }
+    },
+    "outputs": {
+        "seed": {
+            "index": 0,
+            "type": "SEED",
+            "links": []
+        }
+    }
+}

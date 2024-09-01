@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Project Page of GenAgent">
+  <meta property="og:title" content="GenAgent" />
+  <meta property="og:description" content="Project Page of GenAgent" />
+  <meta property="og:url" content="https://xxyqwq.github.io/GenAgent" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/images/banner.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" /> -->
+
+  <meta name="twitter:title" content="GenAgent">
+  <meta name="twitter:description" content="Project Page of GenAgent">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/banner.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Agent, Workflow, Generative, ComfyUI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>GenAgent</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Case Study on ComfyUI
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://github.com/xxyqwq/" target="_blank">Xiangyuan Xue</a>,</span>
+              <span class="author-block">
+                <a href="https://github.com/whlzy/" target="_blank">Zeyu Lu</a>,</span>
+              <span class="author-block">
+                <a href="https://dihuang.me/" target="_blank">Di Huang</a>,</span>
+              <span class="author-block">
+                <a href="https://wlouyang.github.io/" target="_blank">Wanli Ouyang</a>,</span>
+              <span class="author-block">
+                <a href="http://leibai.site/" target="_blank">Lei Bai</a><sup>*</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Shanghai AI Lab</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/xxyQwQ/GenAgent" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser Image -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="static/images/teaser.png" alt="Teaser Image" class="teaser-image">
+        <h2 class="subtitle has-text-justified">
+          The GenAgent framework builds collaborative AI systems by creating workflows. The workflows are converted into
+          code so that LLM agents can better understand them. GenAgent can learn from human-designed workflows and
+          create new ones. The generated workflows can be interpreted as collaborative systems to complete complex
+          tasks.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Much previous AI research has focused on developing monolithic models to maximize their intelligence and
+              capability, with the primary goal of enhancing performance on specific tasks. In contrast, this paper
+              explores an alternative approach: collaborative AI systems that use workflows to integrate models, data
+              sources, and pipelines to solve complex and diverse tasks. We introduce <strong>GenAgent</strong>, an
+              LLM-based framework that automatically generates complex workflows, offering greater flexibility and
+              scalability compared to monolithic models. The core innovation of GenAgent lies in representing workflows
+              with code, alongside constructing workflows with collaborative agents in a step-by-step manner. We
+              implement GenAgent on the <strong>ComfyUI</strong> platform and propose a new benchmark,
+              <strong>OpenComfy</strong>. The results demonstrate that GenAgent outperforms baseline approaches in both
+              run-level and task-level evaluations, showing its capability to generate complex workflows with superior
+              effectiveness and stability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Representing Workflow with Code</h2>
+            <div class="level-set has-text-justified">
+              <p>
+                Workflows are widely used across various applications, with diverse representations: flow graph, JSON,
+                element list and code.
+              <ul>
+                <li><strong>Flow graph</strong> is one of the most intuitive and user-friendly representations of
+                  workflow DAG for human, but not LLMs.</li>
+                <li><strong>JSON</strong> is a fashion way for LLMs to represent structured information, but processing
+                  long JSON files is extremely difficult.</li>
+                <li><strong>Element list</strong> is a natural representation for LLMs to grasp workflows, but is short
+                  of semantic and topological information.</li>
+                <li><strong>Code</strong> is a reasonable and effective representation for LLMs to understand and
+                  generate workflows.
+                </li>
+              </ul>
+              </p>
+              <img src="static/images/representation.png" alt="Workflow Representation" class="center-image" />
+              <div class="container mt-4">
+                <div class="alert alert-danger" role="alert">
+                  Four different representations of workflows, including flow graph, JSON, element list, and code. Flow
+                  graph is an intuitive way only for human vision. JSON is a structured format but actually complex and
+                  redundant. Element list is more compact and closer to natural language, but lacks semantic and
+                  topological information. Code is compact, Turing complete, semantically rich, and friendly for LLMs,
+                  thus suitable for describing workflows.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-small is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Building Workflow with GenAgent</h2>
+            <div class="level-set has-text-justified">
+              <p>
+                We propose the GenAgent framework where the agents collaborate to complete the workflow generation task.
+                GenAgent is mainly composed of three independent modules: Memory, PlanAgent, and Action.
+              <ul>
+                <li><strong>Memory</strong> includes history, reference, and workspace, storing the agent’s recent
+                  history behaviors, results from intermediate, external reference knowledge, and internal reasoning.
+                </li>
+                <li><strong>PlanAgent</strong> is responsible for the global planning of workflows in accordance with
+                  the task instruction. At each step, PlanAgent generates a high-level plan with action decision based
+                  on the current memory and task instruction.</li>
+                <li><strong>Actions</strong> represent different activities that PlanAgent can select, and the goal of
+                  each action is to modify the current memory. Different actions are handled by different agents or
+                  modules.</li>
+              </ul>
+              </p>
+              <img src="static/images/method.png" alt="GenAgent Framework" class="center-image" />
+              <div class="container mt-4">
+                <div class="alert alert-danger" role="alert">
+                  The architecture of the GenAgent framework. Multiple agents collaborate to generate workflows in a
+                  step-by-step manner. The PlanAgent receives the task instruction and generates high-level plans and
+                  action decisions in every step. Different actions are then handled by the CombineAgent, AdaptAgent,
+                  and RetrieveAgent, respectively. The agents are equipped with the memory, which consists of history,
+                  reference, and workspace. The RefineAgent is responsible for debugging if needed. Once the PlanAgent
+                  decides to finish the generation process, the workflow will be submitted to the interpreter for
+                  execution.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Benchmark Evaluation</h2>
+            <div class="level-set has-text-justified">
+              <p>
+                We implement GenAgent on the ComfyUI platform as a proof of concept. ComfyUI uses workflows to describe
+                the generation pipelines, supporting various models and tools, making it possible to solve a wide range
+                of generation tasks. A typical ComfyUI workflow consists tens of nodes and links, which are connected to
+                form a complex DAG. We propose a benchmark, OpenComfy, which contains 20 different tasks of various
+                types. We provide complete documentation for every node and a set of examples containing 12 basic
+                workflows with manual annotations, so that agents can learn from these external knowledge. We compare
+                GenAgent with 4 baseline agents: <strong>Zero-shot Agent</strong>, <strong>Few-shot Agent</strong>,
+                <strong>CoT Agent</strong>, and <strong>RAG Agent</strong>.
+              </p>
+              <div class="container mt-4">
+                <div class="alert alert-danger" role="alert">
+                  The evaluation results on the OpenComfy benchmark. Two pass rates of both run-level and task-level
+                  evaluations are reported. We compare GenAgent with zero-shot, few-shot, CoT, and RAG agents. The best
+                  results are highlighted in bold.
+                </div>
+              </div>
+              <img src="static/images/evaluation.png" alt="Benchmark Evaluation" class="center-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-small is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Generation Example</h2>
+            <div class="level-set has-text-justified">
+              <p>We present the generation results of two different tasks selected from the OpenComfy benchmark, which
+                can intuitively show that GenAgent can generate complex ComfyUI workflows and complete various
+                generation tasks.</p>
+              <h3 class="subtitle is-5">Example 1</h3>
+              <p><strong>Example overview:</strong> The task provides a photo of a girl playing the guitar and requires
+                to generate an image of an old man in the forest, playing the guitar with the same pose as the girl. The
+                expected style and resolution are also specified.</p>
+              <img src="static/images/example_1_overview.png" alt="Generation Example 1" class="center-image" />
+              <p><strong>Task requirement:</strong> You are given an image of a girl playing guitar in
+                `play_guitar.jpg`. Generate an image of an old man playing guitar in the forest with the same pose as
+                the girl. The result should be a realistic and detailed image with 1024x768 resolution.</p>
+              <p><strong>Generated workflow:</strong> The generated workflow consists of 13 nodes, involving a pose
+                estimator and a ControlNet model to inject the pose information as conditions. You can see the generated
+                workflow in the embedding below.</p>
+              <iframe src="https://comfyworkflows.com/embed/af0ffe25-c0a3-4985-af24-12d155c8e7cb" width="100%"
+                height="500" frameBorder="0" allowFullScreen></iframe>
+              <p><strong>Generation result:</strong> The image generated by the executed workflow is shown below.</p>
+              <img src="static/images/example_1_result.png" alt="Generation Example 1 Result" class="center-image" />
+
+              <h3 class="subtitle is-5">Example 2</h3>
+              <p><strong>Example overview:</strong> The task requires to generate an image of London following the style
+                of the given photo of Budapest and convert it into a video. Considering the resolution and frame rate
+                are limited by a single model, the task also involves upscaling and interpolation to form a high-quality
+                video.</p>
+              <img src="static/images/example_2_overview.png" alt="Generation Example 2" class="center-image" />
+              <p><strong>Task requirement:</strong> You are given a photo of Budapest `budapest.jpg`. First generate an
+                image of London with the same style as the given image. Then turn it into a 2-second video with 512x512
+                resolution and 8 frames per second. Finally increase its resolution to 1024x1024 and frame rate to 24.
+                The result should be a high-quality video saved in gif format.</p>
+              <p><strong>Generated workflow:</strong> The generated workflow consists of 22 nodes and complicated
+                connections, utilizing multiple models such as SVD, ESRGAN, and RIFE. You can see the generated workflow
+                in the embedding below.</p>
+              <iframe src="https://comfyworkflows.com/embed/df8a26bb-f7e5-4e6e-bcc6-7bb203123e25" width="100%"
+                height="500" frameBorder="0" allowFullScreen></iframe>
+              <p><strong>Generation result:</strong> The video generated by the executed workflow is shown below.</p>
+              <video poster="" id="example_2" autoplay controls muted loop width="100%">
+                <source src="static/videos/example_2_result.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This project page was built from <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a>.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons
+                Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>

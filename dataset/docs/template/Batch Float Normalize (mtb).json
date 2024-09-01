@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "Batch Float Normalize (mtb)",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "floats": {
+            "index": 0,
+            "type": "FLOATS",
+            "link": null
+        }
+    },
+    "outputs": {
+        "normalized_floats": {
+            "index": 0,
+            "type": "FLOATS",
+            "links": []
+        }
+    }
+}

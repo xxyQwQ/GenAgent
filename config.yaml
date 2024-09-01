@@ -1,0 +1,12 @@
+proxy:
+  http_proxy: "http://127.0.0.1:7890"
+  https_proxy: "http://127.0.0.1:7890"
+
+openai:
+  base_url: null
+  api_key: "input your api key"
+  embedding_model: "text-embedding-3-large"
+  completion_model: "chatgpt-4o-latest"
+
+comfyui:
+  server_address: "127.0.0.1:8188"

@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "Curve (mtb)",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "curve": {
+            "index": 0,
+            "type": "FLOAT_CURVE",
+            "link": null
+        }
+    },
+    "outputs": {
+        "float_curve": {
+            "index": 0,
+            "type": "FLOAT_CURVE",
+            "links": []
+        }
+    }
+}

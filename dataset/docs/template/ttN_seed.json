@@ -1,0 +1,19 @@
+{
+    "id": null,
+    "type": "ttN seed",
+    "title": null,
+    "parameters": {
+        "seed": {
+            "index": 0,
+            "value": null
+        }
+    },
+    "inputs": {},
+    "outputs": {
+        "seed": {
+            "index": 0,
+            "type": "INT",
+            "links": []
+        }
+    }
+}

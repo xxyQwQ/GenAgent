@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "SeargeVAELoader",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "vae_name": {
+            "index": 0,
+            "type": "VAE_NAME",
+            "link": null
+        }
+    },
+    "outputs": {
+        "vae": {
+            "index": 0,
+            "type": "VAE",
+            "links": []
+        }
+    }
+}

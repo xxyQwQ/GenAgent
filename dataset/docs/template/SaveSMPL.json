@@ -1,0 +1,19 @@
+{
+    "id": null,
+    "type": "SaveSMPL",
+    "title": null,
+    "parameters": {
+        "filename_prefix": {
+            "index": 0,
+            "value": null
+        }
+    },
+    "inputs": {
+        "smpl": {
+            "index": 0,
+            "type": "SMPL",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

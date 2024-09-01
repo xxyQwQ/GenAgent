@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "Number to Int",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "number": {
+            "index": 0,
+            "type": "NUMBER",
+            "link": null
+        }
+    },
+    "outputs": {
+        "int": {
+            "index": 0,
+            "type": "INT",
+            "links": []
+        }
+    }
+}

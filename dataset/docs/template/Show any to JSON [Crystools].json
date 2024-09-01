@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "Show any to JSON [Crystools]",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "any_value": {
+            "index": 0,
+            "type": "*",
+            "link": null
+        }
+    },
+    "outputs": {
+        "string": {
+            "index": 0,
+            "type": "STRING",
+            "links": []
+        }
+    }
+}

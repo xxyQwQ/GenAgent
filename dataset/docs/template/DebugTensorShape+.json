@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "DebugTensorShape+",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "tensor": {
+            "index": 0,
+            "type": "*",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

@@ -1,0 +1,25 @@
+{
+    "id": null,
+    "type": "ApplyScaleUModelNode",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "model": {
+            "index": 0,
+            "type": "MODEL",
+            "link": null
+        },
+        "scaleu": {
+            "index": 1,
+            "type": "SCALEU",
+            "link": null
+        }
+    },
+    "outputs": {
+        "model": {
+            "index": 0,
+            "type": "MODEL",
+            "links": []
+        }
+    }
+}

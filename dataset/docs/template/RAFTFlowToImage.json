@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "RAFTFlowToImage",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "raft_flow": {
+            "index": 0,
+            "type": "RAFT_FLOW",
+            "link": null
+        }
+    },
+    "outputs": {
+        "image": {
+            "index": 0,
+            "type": "IMAGE",
+            "links": []
+        }
+    }
+}

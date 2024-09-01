@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "easy imageToBase64",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "image": {
+            "index": 0,
+            "type": "IMAGE",
+            "link": null
+        }
+    },
+    "outputs": {
+        "string": {
+            "index": 0,
+            "type": "STRING",
+            "links": []
+        }
+    }
+}

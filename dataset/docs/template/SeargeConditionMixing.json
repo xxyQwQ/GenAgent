@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "SeargeConditionMixing",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "data": {
+            "index": 0,
+            "type": "SRG_DATA_STREAM",
+            "link": null
+        }
+    },
+    "outputs": {
+        "data": {
+            "index": 0,
+            "type": "SRG_DATA_STREAM",
+            "links": []
+        }
+    }
+}

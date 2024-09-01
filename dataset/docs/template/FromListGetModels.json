@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "FromListGetModels",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "list": {
+            "index": 0,
+            "type": "MODEL",
+            "link": null
+        }
+    },
+    "outputs": {
+        "model": {
+            "index": 0,
+            "type": "MODEL",
+            "links": []
+        }
+    }
+}

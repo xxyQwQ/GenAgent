@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "type": "LLMChatMessagesAdv",
+    "title": null,
+    "parameters": {
+        "system_prompt": {
+            "index": 0,
+            "value": null
+        },
+        "user_prompt": {
+            "index": 1,
+            "value": null
+        }
+    },
+    "inputs": {},
+    "outputs": {
+        "llm_message": {
+            "index": 0,
+            "type": "LIST",
+            "links": []
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "type": "ImpactDummyInput",
+    "title": null,
+    "parameters": {},
+    "inputs": {},
+    "outputs": {
+        "*": {
+            "index": 0,
+            "type": "*",
+            "links": []
+        }
+    }
+}

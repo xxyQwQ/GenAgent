@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "SEGSPreviewCNet",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "segs": {
+            "index": 0,
+            "type": "SEGS",
+            "link": null
+        }
+    },
+    "outputs": {
+        "image": {
+            "index": 0,
+            "type": "IMAGE",
+            "links": []
+        }
+    }
+}

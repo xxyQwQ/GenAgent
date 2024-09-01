@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "type": "StepsScheduleHookProvider",
+    "title": null,
+    "parameters": {
+        "schedule_for_iteration": {
+            "index": 0,
+            "value": null
+        },
+        "target_steps": {
+            "index": 1,
+            "value": null
+        }
+    },
+    "inputs": {},
+    "outputs": {
+        "pk_hook": {
+            "index": 0,
+            "type": "PK_HOOK",
+            "links": []
+        }
+    }
+}

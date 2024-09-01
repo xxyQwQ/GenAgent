@@ -1,0 +1,19 @@
+{
+    "id": null,
+    "type": "Prompts Everywhere",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "+ve": {
+            "index": 0,
+            "type": "*",
+            "link": null
+        },
+        "-ve": {
+            "index": 1,
+            "type": "*",
+            "link": null
+        }
+    },
+    "outputs": {}
+}

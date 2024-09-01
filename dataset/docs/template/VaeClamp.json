@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "VaeClamp",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "vae": {
+            "index": 0,
+            "type": "VAE",
+            "link": null
+        }
+    },
+    "outputs": {
+        "vae": {
+            "index": 0,
+            "type": "VAE",
+            "links": []
+        }
+    }
+}

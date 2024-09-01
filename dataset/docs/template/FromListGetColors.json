@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "FromListGetColors",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "list": {
+            "index": 0,
+            "type": "COLOR",
+            "link": null
+        }
+    },
+    "outputs": {
+        "color": {
+            "index": 0,
+            "type": "COLOR",
+            "links": []
+        }
+    }
+}

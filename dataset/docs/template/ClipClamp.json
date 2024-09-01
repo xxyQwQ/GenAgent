@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "ClipClamp",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "clip": {
+            "index": 0,
+            "type": "CLIP",
+            "link": null
+        }
+    },
+    "outputs": {
+        "clip": {
+            "index": 0,
+            "type": "CLIP",
+            "links": []
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "type": "Text to Console",
+    "title": null,
+    "parameters": {
+        "text": {
+            "index": 0,
+            "value": null
+        },
+        "label": {
+            "index": 1,
+            "value": null
+        }
+    },
+    "inputs": {},
+    "outputs": {
+        "string": {
+            "index": 0,
+            "type": "STRING",
+            "links": []
+        }
+    }
+}

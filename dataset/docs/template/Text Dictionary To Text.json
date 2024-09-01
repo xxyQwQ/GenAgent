@@ -1,0 +1,20 @@
+{
+    "id": null,
+    "type": "Text Dictionary To Text",
+    "title": null,
+    "parameters": {},
+    "inputs": {
+        "dictionary": {
+            "index": 0,
+            "type": "DICT",
+            "link": null
+        }
+    },
+    "outputs": {
+        "string": {
+            "index": 0,
+            "type": "STRING",
+            "links": []
+        }
+    }
+}
