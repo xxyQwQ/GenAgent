@@ -49,7 +49,7 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">
-              GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Case Study on ComfyUI
+              GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Case Studies on ComfyUI
             </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
@@ -168,8 +168,8 @@
                 element list and code.
               <ul>
                 <li><strong>Flow graph</strong> is one of the most intuitive and user-friendly representations of
-                  workflow DAG for human, but not LLMs.</li>
-                <li><strong>JSON</strong> is a fashion way for LLMs to represent structured information, but processing
+                  workflow DAGs for humans, but not LLMs.</li>
+                <li><strong>JSON</strong> is a popular way for LLMs to represent structured information, but processing
                   long JSON files is extremely difficult.</li>
                 <li><strong>Element list</strong> is a natural representation for LLMs to grasp workflows, but is short
                   of semantic and topological information.</li>
@@ -182,10 +182,10 @@
               <div class="container mt-4">
                 <div class="alert alert-danger" role="alert">
                   Four different representations of workflows, including flow graph, JSON, element list, and code. Flow
-                  graph is an intuitive way only for human vision. JSON is a structured format but actually complex and
-                  redundant. Element list is more compact and closer to natural language, but lacks semantic and
-                  topological information. Code is compact, Turing complete, semantically rich, and friendly for LLMs,
-                  thus suitable for describing workflows.
+                  graph is only intuitive for human vision. JSON is a structured format but is complex and redundant.
+                  Element list is more compact and closer to natural language but lacks semantic and topological
+                  information. Code is compact, Turing complete, semantically rich, and friendly for LLMs, thus suitable
+                  for describing workflows.
                 </div>
               </div>
             </div>
@@ -209,9 +209,9 @@
                 <li><strong>Memory</strong> includes history, reference, and workspace, storing the agent’s recent
                   history behaviors, results from intermediate, external reference knowledge, and internal reasoning.
                 </li>
-                <li><strong>PlanAgent</strong> is responsible for the global planning of workflows in accordance with
-                  the task instruction. At each step, PlanAgent generates a high-level plan with action decision based
-                  on the current memory and task instruction.</li>
+                <li><strong>PlanAgent</strong> is responsible for the global planning of workflows under the task
+                  instruction. At each step, PlanAgent generates a high-level plan with an action decision based on the
+                  current memory and task instruction.</li>
                 <li><strong>Actions</strong> represent different activities that PlanAgent can select, and the goal of
                   each action is to modify the current memory. Different actions are handled by different agents or
                   modules.</li>
@@ -222,8 +222,8 @@
                 <div class="alert alert-danger" role="alert">
                   The architecture of the GenAgent framework. Multiple agents collaborate to generate workflows in a
                   step-by-step manner. The PlanAgent receives the task instruction and generates high-level plans and
-                  action decisions in every step. Different actions are then handled by the CombineAgent, AdaptAgent,
-                  and RetrieveAgent, respectively. The agents are equipped with the memory, which consists of history,
+                  action decisions at every step. Different actions are then handled by the CombineAgent, AdaptAgent,
+                  and RetrieveAgent, respectively. The agents are equipped with memory, which consists of history,
                   reference, and workspace. The RefineAgent is responsible for debugging if needed. Once the PlanAgent
                   decides to finish the generation process, the workflow will be submitted to the interpreter for
                   execution.
@@ -246,8 +246,8 @@
               <p>
                 We implement GenAgent on the ComfyUI platform as a proof of concept. ComfyUI uses workflows to describe
                 the generation pipelines, supporting various models and tools, making it possible to solve a wide range
-                of generation tasks. A typical ComfyUI workflow consists tens of nodes and links, which are connected to
-                form a complex DAG. We propose a benchmark, OpenComfy, which contains 20 different tasks of various
+                of generation tasks. A typical ComfyUI workflow consists of tens of nodes and links, which are connected
+                to form a complex DAG. We propose a benchmark, OpenComfy, which contains 20 different tasks of various
                 types. We provide complete documentation for every node and a set of examples containing 12 basic
                 workflows with manual annotations, so that agents can learn from these external knowledge. We compare
                 GenAgent with 4 baseline agents: <strong>Zero-shot Agent</strong>, <strong>Few-shot Agent</strong>,
@@ -255,9 +255,9 @@
               </p>
               <div class="container mt-4">
                 <div class="alert alert-danger" role="alert">
-                  The evaluation results on the OpenComfy benchmark. Two pass rates of both run-level and task-level
-                  evaluations are reported. We compare GenAgent with zero-shot, few-shot, CoT, and RAG agents. The best
-                  results are highlighted in bold.
+                  The evaluation results on the OpenComfy benchmark. Two types of pass rates of both run-level and
+                  task-level evaluations are reported. We compare GenAgent with zero-shot, few-shot, CoT, and RAG
+                  agents. The best results are highlighted in bold.
                 </div>
               </div>
               <img src="static/images/evaluation.png" alt="Benchmark Evaluation" class="center-image" />
@@ -280,7 +280,7 @@
                 generation tasks.</p>
               <h3 class="subtitle is-5">Example 1</h3>
               <p><strong>Example overview:</strong> The task provides a photo of a girl playing the guitar and requires
-                to generate an image of an old man in the forest, playing the guitar with the same pose as the girl. The
+                generating an image of an old man in the forest, playing the guitar with the same pose as the girl. The
                 expected style and resolution are also specified.</p>
               <img src="static/images/example_1_overview.png" alt="Generation Example 1" class="center-image" />
               <p><strong>Task requirement:</strong> You are given an image of a girl playing guitar in
@@ -295,7 +295,7 @@
               <img src="static/images/example_1_result.png" alt="Generation Example 1 Result" class="center-image" />
 
               <h3 class="subtitle is-5">Example 2</h3>
-              <p><strong>Example overview:</strong> The task requires to generate an image of London following the style
+              <p><strong>Example overview:</strong> The task requires generating an image of London following the style
                 of the given photo of Budapest and convert it into a video. Considering the resolution and frame rate
                 are limited by a single model, the task also involves upscaling and interpolation to form a high-quality
                 video.</p>

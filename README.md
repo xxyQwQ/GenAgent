@@ -1,8 +1,8 @@
 <h1 align="center">
-GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Case Study on ComfyUI
+GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Case Studies on ComfyUI
 </h1>
 <p align="center">
-    Implementation for the "GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Case Study on ComfyUI" paper.
+    Implementation for the "GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Case Studies on ComfyUI" paper.
     <br />
     <a href="https://github.com/xxyqwq/"><strong>Xiangyuan Xue</strong></a>
     &nbsp;
