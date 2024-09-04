@@ -18,7 +18,7 @@ GenAgent: Build Collaborative AI Systems with Automated Workflow Generation - Ca
 <p align="center">
     <a href="https://github.com/xxyQwQ/GenAgent"> <img alt="Github Code" src="https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=blue"> </a>
     <a href="https://xxyqwq.github.io/GenAgent"> <img alt="Project Page" src="https://img.shields.io/badge/Project-Page-green?logo=googlenews&logoColor=green"> </a>
-    <a href=""> <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper-red?style=flat&logo=googlescholar&logoColor=red"> </a>
+    <a href="https://arxiv.org/abs/2409.01392"> <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper-red?style=flat&logo=googlescholar&logoColor=red"> </a>
 </p>
 
 ![Teaser](assets/image/teaser.png)
